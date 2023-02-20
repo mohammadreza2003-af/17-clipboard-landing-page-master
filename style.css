@@ -12,4 +12,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(images/bg-header-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-box {
+  position: absolute;
+  top: 20%;
+}
+.box-content {
 }
