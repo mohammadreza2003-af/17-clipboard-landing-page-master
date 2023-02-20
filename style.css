@@ -186,3 +186,9 @@ section {
 .logo:last-child {
   margin-right: 0;
 }
+.end-s5 {
+  margin-top: 128px;
+}
+.width-fix {
+  width: 45%;
+}
