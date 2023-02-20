@@ -22,11 +22,15 @@ header {
   background-size: cover;
   position: relative;
 }
+.heading-primary {
+  font-weight: 600;
+}
 .header-box {
   position: absolute;
   top: 20%;
 }
 .heading-sub {
+  font-weight: 400;
   color: hsl(201, 11%, 66%);
   width: 75%;
   text-align: center;
