@@ -80,8 +80,33 @@ header {
   text-align: center;
 }
 /* section-2 */
+section {
+  margin-top: 64px;
+}
+.section-con-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -20%;
+}
 .content-box-s2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 128px;
+}
+.box-s2 {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.head-text-s2 {
+  font-weight: 600;
+}
+.dis-text-s2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(201, 11%, 66%);
 }
