@@ -79,3 +79,9 @@ header {
   width: 40%;
   text-align: center;
 }
+/* section-2 */
+.content-box-s2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
