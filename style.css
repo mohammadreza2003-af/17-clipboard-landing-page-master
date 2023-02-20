@@ -23,6 +23,8 @@
   /*  color */
   --color-Cyan: hsl(171, 66%, 44%);
   --color-Light-Blue: hsl(233, 100%, 69%);
+  --color-Cyan-light: hsl(171, 59%, 58%);
+  --color-Light-Blue-light: hsl(233, 89%, 75%);
   --color-Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --color-Grayish-Blue: hsl(201, 11%, 66%);
   --color-cream: hsl(0, 0%, 96%);
@@ -72,12 +74,24 @@ header {
 .btn-box {
   margin-top: var(--size-32);
 }
-.btn-right {
+.btn-right:is(:link, :visited) {
   margin-right: var(--size-24);
   background-color: var(--color-Cyan);
+  transition: all 0.3s ease-in-out;
 }
 .btn-left {
+  transition: all 0.3s ease-in-out;
+}
+.btn-right:is(:hover, :active) {
+  background-color: var(--color-Cyan-light);
+  box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.3);
+}
+.btn-left:is(:link, :visited) {
   background-color: var(--color-Light-Blue);
+}
+.btn-left:is(:hover, :active) {
+  background-color: var(--color-Light-Blue-light);
+  box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.3);
 }
 .btn {
   text-decoration: none;
@@ -248,9 +262,13 @@ footer {
 }
 .f-l {
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 .f-l:is(:link, :visited) {
   color: var(--color-Grayish-Blue);
+}
+.f-l:is(:hover, :active) {
+  color: var(--color-Cyan);
 }
 @media (max-width: 1150px) {
   .logos {
