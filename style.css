@@ -192,3 +192,37 @@ section {
 .width-fix {
   width: 45%;
 }
+/* footer */
+footer {
+  height: 150px;
+  background-color: hsl(0, 0%, 96%);
+  display: flex;
+  margin-top: 96px;
+  align-items: center;
+}
+.footer-logo {
+  width: 64px;
+}
+.footer-con {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 150px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.icon-s {
+  display: flex;
+  gap: 16px;
+  margin-left: 256px;
+}
+.f-l {
+  text-decoration: none;
+}
+.f-l:is(:link, :visited) {
+  color: hsl(201, 11%, 66%);
+}
