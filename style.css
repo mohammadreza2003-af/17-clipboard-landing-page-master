@@ -176,7 +176,9 @@ section {
   align-items: center;
 }
 /*   section-4 */
-
+.fix {
+  display: none;
+}
 .section-con-4 {
   display: flex;
   flex-direction: column;
