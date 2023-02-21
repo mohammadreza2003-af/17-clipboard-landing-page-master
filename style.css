@@ -20,6 +20,7 @@
   --size-10: 10px;
   --size-128: 12.8rem;
   --size-175: 17.5rem;
+  --size-500: 50rem;
   /*  color */
   --color-Cyan: hsl(171, 66%, 44%);
   --color-Light-Blue: hsl(233, 100%, 69%);
@@ -40,7 +41,7 @@ body {
 }
 header {
   width: 100%;
-  height: 550px;
+  height: var(--size-500);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -199,6 +200,7 @@ section {
   gap: var(--size-24);
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 .icon-s5 {
   width: var(--size-48);
@@ -206,6 +208,7 @@ section {
 .boxs-s5 {
   display: flex;
   gap: var(--size-32);
+  justify-content: center;
 }
 .dis-text-s5 {
   color: var(--color-Grayish-Blue);
@@ -239,6 +242,7 @@ footer {
   display: flex;
   margin-top: var(--size-96);
   align-items: center;
+  justify-content: center;
 }
 .footer-logo {
   width: var(--size-64);
